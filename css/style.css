@@ -1,0 +1,85 @@
+
+@font-face {
+    font-family: 'vecna';
+    src: url(../Fonte/Vecna-oppx.ttf);
+}
+
+*{
+   font-family: 'vecna'; 
+   font-size: 102%;
+   background-color:  #522b2b;
+}
+.header h3{
+    text-align: center;
+    color: #0c0c0c;
+}
+input[type="text"]
+input[type="number"]
+input[type="date"]
+input[type="file"]{
+    width: 500px;
+    background-color: #ccc;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 1px 0;
+    background: transparent;
+    
+}
+.form-header{
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    line-height: 45px;
+    display: inline-block;
+    /* border: 2px solid blue; */
+}
+.box-input{
+    display: inline-block;
+}
+.form-conteiner{
+    max-width: 100%;
+    max-height: 100%;
+    text-transform: uppercase;
+    margin: 0 auto;
+    position: relative;
+    /* border: 2px solid blue; */
+    text-align: center;
+    
+    
+
+}
+label,p{
+    color: #020202;
+}
+p{
+    border: 5px solid;
+    padding: 5px;
+    border-radius: 10%;
+  
+}
+.btn-submit{
+    background-color:#e41111;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    position: static
+}
+.btn-submit:hover{
+    background-color: #fff;
+    border-color:#e41111;
+    color:#e41111;
+    
+}
+.form-body{
+    margin: 20px;
+    line-height: 45px;
+}
+    
+
+

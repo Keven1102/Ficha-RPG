@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="PT_BR">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="java/script.js"></script>
+    <title>Repugna RPG</title>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="header">
+        <h3>Ficha de agente</h3>
+      </div>
+      <div class="form-conteiner">
+        <form action="">
+          <div class="form-body">
+      <div class="form-header">
+        <div class="box-input">
+          <label for="character">Personagem:</label>
+          <input
+            type="text"
+            name="character"
+            id="character"
+            placeholder="Digite o nome do seu personagem"
+            required
+          />
+        </div>
+        <div class="box-input">
+          <label for="player">Jogador:</label>
+          <input
+            type="text"
+            name="player"
+            id="player"
+            placeholder="Digite o nome do jogador"
+            required
+          />
+        </div>
+        <div class="box-input">
+          <label for="origin">Origem:</label>
+          <input
+            type="text"
+            name="origin"
+            id="origin"
+            placeholder="Digite a origem do seu personagem"
+            required
+            
+          />
+        </div>
+        <div class="box-input">
+          <label for="trilha">Trilha:</label>
+          <input
+            type="text"
+            name="trilha"
+            id="trilha"
+            placeholder="Digite a trilha do seu personagem"
+            required
+          />
+        </div>
+        <div class="box-input">
+          <label for="class">Classe:</label>
+          <input
+            type="text"
+            name="class"
+            id="class"
+            placeholder="Digite a classe do seu personagem"
+            required
+          />
+        </div>
+        <div class="box-input">
+          <label for="patente">Patente:</label>
+          <input
+            type="text"
+            name="patente"
+            id="patente"
+            placeholder="Digite a trilha do seu personagem"
+            required
+          />
+        </div>
+        <div class="box-input">
+          <label for="element">Elemento:</label>
+          <input
+            type="text"
+            name="element"
+            id="element"
+            placeholder="Digite seu elemento"
+            required
+          />
+        </div>
+        <div class="box-input">
+          <label for="nex">NEX:</label>
+          <input type="number" name="nex" id="nex" value="0"required />
+        </div>
+        <div class="box-input">
+          <label for="xp">XP:</label>
+          <input type="number" name="xp" id="xp" value="0" required />
+        </div>
+        <div class="box-input">
+          <label for="pm">PM:</label>
+          <input type="number" name="pm" id="pm" value="0" required/>
+        </div>
+      </div>
+     
+            <p class="paragrafo">Atributos</p>
+            <div class="box-input">
+              <label for="passsive">Agilidade:</label>
+              <input type="number" name="passsive" id="passsive" value="0"required />
+            </div>
+            <div class="box-input">
+              <label for="pv">Força:</label>
+              <input type="number" name="pv" id="pv" value="0" required/>
+            </div>
+            <div class="box-input">
+              <label for="pe">Vigor:</label>
+              <input type="number" name="pe" id="pe" value="0" required/>
+            </div>
+            <div class="box-input">
+              <label for="intelligence">Inteligência:</label>
+              <input
+                type="number"
+                name="intelligence"
+                id="intelligence"
+                value="0"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="presence">Presença:</label>
+              <input type="number" name="presence" id="presence" value="0"required />
+            </div>
+            <p class="paragrafo">Saúde</p>
+            <div class="box-input">
+              <label for="passsive">Passiva:</label>
+              <input type="number" name="passsive" id="passsive" value="0" required/>
+            </div>
+            <div class="box-input">
+              <label for="pv">PV:</label>
+              <input type="number" name="pv" id="pv" value="0" required/>
+            </div>
+            <div class="box-input">
+              <label for="pe">PE:</label>
+              <input type="number" name="pe" id="pe" value="0"required />
+            </div>
+            <p class="paragrafo">Defesas</p>
+            <div class="box-input">
+              <label for="passsive">Passiva:</label>
+              <input type="number" name="passsive" id="passsive" value="0"required />
+            </div>
+            <div class="box-input">
+              <label for="dogde">Esquiva:</label>
+              <input type="number" name="dogde" id="dogde" value="0"required />
+            </div>
+            <p class="paragrafo">Resistência a dano</p>
+            <div class="box-input">
+              <textarea
+                name="damage-resistance"
+                id="damage-resistance"
+                required
+                placeholder="Descreva a sua resistência a dano"
+                required
+              ></textarea>
+            </div>
+            <p class="paragrafo">Ataques</p>
+            <div class="box-input">
+              <label for="arm">Arma</label>
+              <input type="text" name="arm" id="arm" required/>
+              <input type="text" name="arm" id="arm" required/>
+            </div>
+            <div class="box-input">
+              <label for="type">Tipo</label>
+              <input type="text" name="type" id="type" required/>
+              <input type="text" name="type" id="type" required/>
+            </div>
+            <div class="box-input">
+              <label for="atack">Ataque</label>
+              <input type="text" name="atack" id="atack" required/>
+              <input type="text" name="atack" id="atack" required/>
+            </div>
+            <div class="box-input">
+              <label for="range">Alcance</label>
+              <input type="text" name="range" id="range" required/>
+              <input type="text" name="range" id="range" required/>
+            </div>
+            <div class="box-input">
+              <label for="damage">Dano</label>
+              <input type="text" name="damage" id="damage" required/>
+              <input type="text" name="damage" id="damage" required/>
+            </div>
+            <div class="box-input">
+              <label for="">Crítico</label>
+              <input type="text" name="critical" id="critical"required />
+              <input type="text" name="critical" id="critical"required/>
+            </div>
+            <div class="box-input">
+              <label for="special">Especial</label>
+              <input type="text" name="special" id="special" required/>
+              <input type="text" name="special" id="special"required />
+            </div>
+            <p class="paragrafo">Ataques e defesas detalhados</p>
+            <div class="box-input">
+              <textarea
+                name="damage-resistance"
+                id="damage-resistance"
+                required
+                placeholder="Descreva seus ataques e defesas"
+                required
+              ></textarea>
+            </div>
+            <p class="paragrafo">Pericias</p>
+            <div class="box-input">
+              <label for="stun">Acrobacia</label>
+              <label for="treining"></label>
+              <input
+                type="number"
+                name="treining"
+                id="treining"
+                placeholder="Treino"
+                required
+              />
+              +
+              <label for="outher"></label>
+              <input
+                type="number"
+                name="outher"
+                id="outher"
+                placeholder="Outros"
+                required
+              />
+              =
+              <label for="total"></label>
+              <input
+                type="number"
+                name="total"
+                id="total"
+                placeholder="Total"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="stun">Adestramento</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Atletismo</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining"required />
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Atualidades</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher"required />
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Ciências</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total"required />
+            </div>
+            <div class="box-input">
+              <label for="stun">Crime</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Diplomacia</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher"required />
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Enganação</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining"required />
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Fortitude</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining"required />
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Iniciativa</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Intimidação</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining"required />
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher"required />
+              <label for="total"></label>
+              <input type="number" name="total" id="total"required />
+            </div>
+            <div class="box-input">
+              <label for="stun">Intuição</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Investigação</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Luta</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Medicina</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total"required />
+            </div>
+            <div class="box-input">
+              <label for="stun">Ocultismo</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Percepição</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher"required />
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Pilotagem</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Pontaria</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher"required />
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Profissão</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Reflexos</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher"required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Religião</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining"required />
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total"required />
+            </div>
+            <div class="box-input">
+              <label for="stun">Sobrevivência</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher"required />
+              <label for="total"></label>
+              <input type="number" name="total" id="total"required />
+            </div>
+            <div class="box-input">
+              <label for="stun">Tática</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining"required />
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total"required />
+            </div>
+            <div class="box-input">
+              <label for="stun">Tecnologia</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+            <div class="box-input">
+              <label for="stun">Vontade</label>
+              <label for="treining"></label>
+              <input type="number" name="treining" id="treining" required/>
+              <label for="outher"></label>
+              <input type="number" name="outher" id="outher" required/>
+              <label for="total"></label>
+              <input type="number" name="total" id="total" required/>
+            </div>
+          </div>
+          <div class="botao">
+            <input class="btn-submit" type="submit" value= "Salvar" name="btn-submit" id="btn-submit">
+          </div>
+          </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
